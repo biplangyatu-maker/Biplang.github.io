@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Biplang Yatu.</a>
+        <ul class="nav-menu">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="home-info">
+                <h1>Biplang Jidauna Yatu.</h1>
+                <h2>I'm a Frontend Developer</h2>
+                <p>
+                    Passionate frontend developer with expertise in creating responsive and interactive web applications. 
+                    Skilled in HTML, CSS, JavaScript, and modern frameworks. Always eager to learn and tackle new challenges.
+                </p>
+
+                <div class="btn-sci">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <div class="sci">
+                        <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="me.jpg" alt="Biplang Yatu">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="cards">Frontend Web Developer</div>
+            <div class="cards">SOC Analyst</div>
+            <div class="cards">Python</div>
+            <div class="cards">JavaScript</div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <div class="cards-info">
+            <div class="aboutme-card">
+                <h1>Education</h1>
+                <p>Bachelors Degree in Computer Science, currently in final year from ATBU Bauchi University</p>
+            </div>
+            <div class="aboutme-card">
+                <h1>Career Goals</h1>
+                <p>An aspiring web-developer seeking entry level roles in web-development to apply my skills and grow into a full-stack web-developer</p>
+            </div>
+            <div class="aboutme-card">
+                <h1>What I Offer</h1>
+                <p>#. I offer front end services that focuses on creating attractive and responsive user interfaces</p>
+                <p>#. I also perform basic vulnerability scanning with the use of Kali Linux OS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <h2>Project 1</h2>
+                <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h2>Project 2</h2>
+                <p>An e-commerce site with modern UI and interactive features.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h2>Project 3</h2>
+                <p>A data visualization dashboard using Python and web technologies.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <div class="contact-card">
+                <i class='bx bx-envelope'></i>
+                <h3>Email</h3>
+                <p>biplang@example.com</p>
+            </div>
+            <div class="contact-card">
+                <i class='bx bx-phone'></i>
+                <h3>Phone</h3>
+                <p>+234 8133527022</p>
+            </div>
+            <div class="contact-card">
+                <i class='bx bx-map'></i>
+                <h3>Location</h3>
+                <p>Jos, Nigeria</p>
+            </div>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Biplang Yatu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
